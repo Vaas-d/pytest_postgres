@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pytest = "*"
+psycopg2 = "*"
+python-dotenv = "*"
+lorem-text = "*"
+pytest-html = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
